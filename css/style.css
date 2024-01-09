@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #efefef;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 .menu {
   display: flex;
@@ -38,6 +44,7 @@
   background-color: white;
   cursor: pointer;
   box-shadow: 0 0 10px 0 rgba(0, 0, 255, 0.5);
+  border: 1px solid blue;
 }
 .menu a {
   text-decoration: none;
